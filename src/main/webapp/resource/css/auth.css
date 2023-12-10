@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #F4A460;
+}
+label, input{
+    font-size: 20px;
+}
+body{
+    background: #ffffff;
+}
+.wrapper{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 20px;
+    border-color: #F4A460;
+    width: 450px;
+    height: 300px;
+    background-color: #fffacd;
+    padding: 50px 40px 0px 40px;
+    display: inline-block;
+}
+.title{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+form{
+    display: inline-block;
+}
+.input-wrap{
+    width: 330px;
+
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.loginbtn{
+    color: #fffacd;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #F4A460;
+    margin-left: 5px;
+    border: none;
+    font-size: 18px;
+    width: 325px;
+    margin-bottom: 10px;
+}
+.loginbtn:hover{
+    background-color: #FFD700;
+}
+label{
+    font-weight: 600;
+}
+.input{
+    border-radius: 5px;
+    border: 2px solid #F4A460;
+    outline: none;
+}
+.input:focus{
+    border: 2px solid #fffacd;
+    box-shadow: 0px 0px 5px 2px #fffacd;
+}
+.regbtn{
+    color: #F4A460;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.regbtn:hover{
+    color: #FFD700;
+    cursor: pointer;
+}
